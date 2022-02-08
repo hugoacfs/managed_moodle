@@ -1,3 +1,0 @@
-[submodule "bin/bin/pluginmanager"]
-	path = bin/bin/pluginmanager
-	url = git@github.com:hugoacfs/pluginmanager.git
