@@ -1,0 +1,10 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    // Ruler allows us to not go over 80 chars.
+    "editor.rulers": [ 80 ],
+    "files.trimTrailingWhitespace": true,
+    "editor.colorDecorators": true,
+    "editor.comments.insertSpace": true,
+    "editor.letterSpacing": -0.1,
+    "git.ignoreLimitWarning": true
+}

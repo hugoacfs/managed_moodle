@@ -1,0 +1,5 @@
+*.log
+bin/moodle_versions
+www/html
+verify/current-bighash.json
+verify/current-fullhash.json
