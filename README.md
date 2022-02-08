@@ -1,4 +1,4 @@
-# hostedmoodle
+# managed_moodle
 *Introduction*
 
 This repository is a template to help manage custom Moodle installations.
