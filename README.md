@@ -62,217 +62,23 @@ Example of plugins.json:
 ```json
 {
     "community": {
-        "tool_editrolesbycap": {
-            "name": "editrolesbycap",
-            "path": "admin/tool",
-            "version": 2021080900,
-            "repo": "https://github.com/moodleou/moodle-tool_editrolesbycap",
-            "branch": "v1.9"
-        },
-        "block_checklist": {
-            "name": "checklist",
-            "path": "blocks",
-            "version": 2022012200,
-            "repo": "https://github.com/davosmith/moodle-block_checklist",
-            "branch": "master",
-            "commit": "14fd06ffb58ec987a4d89b14174af26c55653b38"
-        },
-        "block_heatmap": {
-            "name": "heatmap",
-            "path": "blocks",
-            "version": 2020042100,
-            "repo": "https://github.com/deraadt/moodle-block_heatmap",
-            "branch": "2020042100"
-        },
-        "block_coursesearch": {
-            "name": "coursesearch",
-            "path": "blocks",
-            "version": 2017111303,
-            "repo": "https://github.com/sharpchi/moodle-block_coursesearch",
-            "branch": "MOODLE_39"
-        },
-        "block_massaction": {
-            "name": "massaction",
-            "path": "blocks",
-            "version": 2017092900,
-            "repo": "https://github.com/at-tools/moodle-block_massaction.git",
-            "branch": "master",
-            "commit": "494f0c6b4ac6159434d802a84c18e2691c05deb6"
-        },
-        "format_flexible": {
-            "name": "flexible",
-            "path": "course/format",
-            "version": 2019052705,
-            "repo": "git@bitbucket.org:covuni/moodle-format_flexible.git",
-            "branch": "master"
-        },
-        "format_grid": {
-            "name": "grid",
-            "path": "course/format",
-            "version": 2020070706,
-            "repo": "https://github.com/gjb2048/moodle-format_grid",
-            "branch": "MOODLE_39",
-            "commit": "8c6f52e5de276606956eeb7b25620787d91a2fac"
-        },
-        "filter_generico": {
-            "name": "generico",
-            "path": "filter",
-            "version": 2021080600,
-            "repo": "https://github.com/justinhunt/moodle-filter_generico",
-            "branch": "v1.4.13"
-        },
-        "filter_oembed": {
-            "name": "oembed",
-            "path": "filter",
-            "version": 2019112600,
-            "repo": "https://github.com/PoetOS/moodle-filter_oembed",
-            "branch": "MOODLE_38_STABLE"
-        },
-        "filter_syntaxhighlighter": {
-            "name": "syntaxhighlighter",
-            "path": "filter",
-            "version": 2021052101,
-            "repo": "https://github.com/sharpchi/moodle-filter_syntaxhighlighter",
-            "branch": "v2021052101"
-        },
-        "atto_fullscreen": {
-            "name": "fullscreen",
-            "path": "lib/editor/atto/plugins",
-            "version": 2015122011,
-            "repo": "https://github.com/dthies/moodle-atto_fullscreen",
-            "branch": "master"
-        },
-        "atto_generico": {
-            "name": "generico",
-            "path": "lib/editor/atto/plugins",
-            "version": 2018090300,
-            "repo": "https://github.com/justinhunt/moodle-atto_generico",
-            "branch": "v.1.1.1"
-        },
-        "atto_hr": {
-            "name": "hr",
-            "path": "lib/editor/atto/plugins",
-            "version": 2018093000,
-            "repo": "https://github.com/damyon/moodle-atto_hr",
-            "branch": "master"
-        },
-        "atto_linkadv": {
-            "name": "linkadv",
-            "path": "lib/editor/atto/plugins",
-            "version": 2020041402,
-            "repo": "https://github.com/sharpchi/moodle-atto_linkadv",
-            "branch": "v2020041402"
-        },
-        "atto_styles": {
-            "name": "styles",
-            "path": "lib/editor/atto/plugins",
-            "version": 2020100800,
-            "repo": "https://github.com/moodleuulm/moodle-atto_styles",
-            "branch": "v3.8-r2"
-        },
-        "atto_templates4u": {
-            "name": "templates4u",
-            "path": "lib/editor/atto/plugins",
-            "version": 2020062501,
-            "repo": "https://github.com/sharpchi/moodle-atto_templates4u",
-            "branch": "v2020062501"
-        },
-        "local_boostnavigation": {
-            "name": "boostnavigation",
-            "path": "local",
-            "version": 2020112303,
-            "repo": "https://github.com/moodleuulm/moodle-local_boostnavigation",
-            "branch": "v3.9-r6"
-        },
-        "booktool_wordimport": {
-            "name": "wordimport",
-            "path": "mod/book/tool",
-            "version": 2021083100,
-            "repo": "https://github.com/ecampbell/moodle-booktool_wordimport",
-            "branch": "v1.4.11"
-        },
-        "mod_journal": {
-            "name": "journal",
-            "path": "mod",
-            "version": 2020091100,
-            "repo": "https://github.com/elearningsoftware/moodle-mod_journal.git",
-            "branch": "master",
-            "commit": "016a50a8b534a8ecb6f061ab1c30647ba984ce08"
-        },
-        "mod_checklist": {
-            "name": "checklist",
-            "path": "mod",
-            "version": 2021063000,
-            "repo": "https://github.com/davosmith/moodle-checklist",
-            "branch": "3.9.0.2"
-        },
-        "mod_groupselect": {
-            "name": "groupselect",
-            "path": "mod",
-            "version": 2020030600,
-            "repo": "https://github.com/rogerbaba/moodle-mod_groupselect",
-            "branch": "v3.17-1"
-        },
-        "mod_lightboxgallery": {
-            "name": "lightboxgallery",
-            "path": "mod",
-            "version": 2021033100,
-            "repo": "https://github.com/open-lms-open-source/moodle-mod_lightboxgallery",
-            "branch": "MOODLE_310_STABLE",
-            "commit": "369a24e3b583ec1cf4cb98d365c62605199b6dc8"
-        },
-        "mod_questionnaire": {
-            "name": "questionnaire",
-            "path": "mod",
-            "version": 2020111101,
-            "repo": "https://github.com/PoetOS/moodle-mod_questionnaire",
-            "branch": "3.10.1"
-        },
-        "mod_scheduler": {
-            "name": "scheduler",
-            "path": "mod",
-            "version": 2019120200,
-            "repo": "https://github.com/bostelm/moodle-mod_scheduler",
-            "branch": "v3.7.0"
-        },
-        "report_customsql": {
-            "name": "customsql",
-            "path": "report",
-            "version": 2021070700,
-            "repo": "https://github.com/moodleou/moodle-report_customsql",
-            "branch": "v4.1"
-        },
-        "report_editdates": {
-            "name": "editdates",
-            "path": "report",
-            "version": 2020121800,
-            "repo": "https://github.com/moodleou/moodle-report_editdates",
-            "branch": "v2.9"
-        },
-        "repository_pixabay": {
-            "name": "pixabay",
-            "path": "repository",
-            "version": 2020050800,
-            "repo": "https://github.com/yedidiaklein/moodle-repository_pixabay",
-            "branch": "master",
-            "commit": "1e00bfdb8ce280ce9ec1f7bf521a94497a714dcb"
+        "qbehaviour_deferredfeedbackexplain": {
+            "name": "deferredfeedbackexplain",
+            "path": "question/behaviour",
+            "version": 2018021600,
+            "repo": "https://github.com/timhunt/moodle-qbehaviour_deferredfeedbackexplain",
+            "branch": "main",
+            "commit": "d7f835c7acde910e759ec9cae42f63f35d466b8f"
         }
     },
     "custom": {
-        "report_editdates": {
-            "name": "editdates",
-            "path": "report",
-            "version": 2020121800,
-            "repo": "https://github.com/moodleou/moodle-report_editdates",
-            "branch": "v2.9"
-        },
-        "repository_pixabay": {
-            "name": "pixabay",
-            "path": "repository",
-            "version": 2020050800,
-            "repo": "https://github.com/yedidiaklein/moodle-repository_pixabay",
+        "mod_mymodplugin": {
+            "name": "mymodplugin",
+            "path": "mod",
+            "version": 2020010700,
+            "repo": "git@github.com:yourusername/moodle-mod_mymodplugin.git",
             "branch": "master",
-            "commit": "1e00bfdb8ce280ce9ec1f7bf521a94497a714dcb"
+            "commit": "f5d51ded76fb098c1748fcb1d1838cec39ff2076"
         }
     }
 }
